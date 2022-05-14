@@ -60,7 +60,7 @@ add_action('login_form', 'secprot_form_inputs');
 add_action('register_form', 'secprot_form_inputs');
 add_action('lostpassword_form', 'secprot_form_inputs');
 add_action('woocommerce_login_form', 'secprot_form_inputs');
-
+add_action('s2member_pro_login_widget', 'secprot_form_inputs');
 
 function secprot_login_check($user, $username, $password) {
 	global $secprot_settings;
